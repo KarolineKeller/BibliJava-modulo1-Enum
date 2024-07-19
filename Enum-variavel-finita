@@ -1,0 +1,14 @@
+public class Enum {
+    public enum DayOfWeek {
+        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    }
+    public static void main(String[] arg){
+        System.out.println(DayOfWeek.MONDAY);
+        System.out.println(DayOfWeek.TUESDAY);
+        System.out.println(DayOfWeek.THURSDAY);
+        System.out.println(DayOfWeek.FRIDAY);
+        System.out.println(DayOfWeek.SATURDAY);
+        System.out.println(DayOfWeek.WEDNESDAY);
+
+    }
+}
